@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/spyral/static/css/main.ad7fd9b8.css",
+    "main.js": "/spyral/static/js/main.b210c813.js",
+    "static/media/index5.jpg": "/spyral/static/media/index5.b192ba24799a85a13ecd.jpg",
+    "static/media/ShopWoman.jpg": "/spyral/static/media/ShopWoman.ef31ae7b7b206aabe545.jpg",
+    "static/media/larger.jpg": "/spyral/static/media/larger.0bdf5248caf267b64cbf.jpg",
+    "static/media/clt4.jpg": "/spyral/static/media/clt4.212787ddd87e33ade82c.jpg",
+    "static/media/RobotoCondensed-Light.ttf": "/spyral/static/media/RobotoCondensed-Light.232a172f65a3a716ba55.ttf",
+    "static/media/ShopMan.jpg": "/spyral/static/media/ShopMan.4673ab4a2b5c2ef94b9d.jpg",
+    "static/media/clt2.jpg": "/spyral/static/media/clt2.221e76e90ff746fee226.jpg",
+    "static/media/clt3.jpg": "/spyral/static/media/clt3.033cc79198bc3fff3448.jpg",
+    "static/media/clt1.jpg": "/spyral/static/media/clt1.c5f834bccac651d244a9.jpg",
+    "static/media/shoe.jpg": "/spyral/static/media/shoe.3cc8b8a850571b59ac29.jpg",
+    "static/media/InstrumentSerif-Regular.ttf": "/spyral/static/media/InstrumentSerif-Regular.ed4732ed0faa72d44c5f.ttf",
+    "static/media/Overwave.ttf": "/spyral/static/media/Overwave.b054e5cbe08eda5fe1fd.ttf",
+    "static/media/bag.jpg": "/spyral/static/media/bag.5c26967627e6a3aab92f.jpg",
+    "index.html": "/spyral/index.html",
+    "main.ad7fd9b8.css.map": "/spyral/static/css/main.ad7fd9b8.css.map",
+    "main.b210c813.js.map": "/spyral/static/js/main.b210c813.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad7fd9b8.css",
+    "static/js/main.b210c813.js"
+  ]
+}
