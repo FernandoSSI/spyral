@@ -1,0 +1,354 @@
+@font-face {
+    font-family: "Overwave";
+    src: url(../../fonts/Overwave.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../../fonts/RobotoCondensed-Light.ttf) format(truetype);
+}
+
+
+
+@media (min-width: 650px) {
+    .inactiveNavbarContainer {
+        background-color: transparent;
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px 0 20px;
+        transition: 0.2s;
+        z-index: 10;
+        position: fixed;
+
+    }
+
+    .activeNavbarContainer {
+        background-color: #fff;
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px 0 20px;
+        transition: 0.2s;
+        z-index: 10;
+        position: fixed;
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+    .menu {
+        font-size: 2em;
+        cursor: pointer;
+        display: none;
+    }
+
+    .activeNavbarContainer a {
+        color: black;
+    }
+
+    .activeNavbarContainer .menu {
+        color: black;
+    }
+
+    .inactiveNavbarContainer:hover {
+        background-color: #ffffff;
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+    .inactiveNavbarContainer:hover a {
+        color: black;
+    }
+
+    .inactiveNavbarContainer:hover .menu {
+        color: black;
+    }
+
+    .linksWords {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .categories {
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .categoriesList {
+        display: flex;
+    }
+
+    .categoriesList li {
+        list-style-type: none;
+        margin-right: 20px;
+        font-size: 13px;
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        cursor: pointer;
+        transition: 0.2s;
+
+    }
+
+    .categoriesList li:hover,
+    .iconsList li:hover {
+        box-shadow: 0 1px 0 black;
+
+    }
+
+    .linksIcons {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .iconsList {
+        display: flex;
+    }
+
+    .iconsList li {
+        list-style-type: none;
+        margin-right: 20px;
+        font-size: 25px;
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        cursor: pointer;
+        transition: 0.2s;
+
+
+    }
+
+
+
+    .inactiveNavbarContainer a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .inactiveNavbarContainer .menu {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .activeNavbarContainer a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .activeNavbarContainer .menu {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .categoriesShow li{
+        display: none;
+    }
+    .categoriesHidden li{
+        display: none;
+    }
+
+}
+
+
+/*-------------------------------------------------------------------*/
+
+
+
+@media (max-width: 650px) {
+
+    .inactiveNavbarContainer {
+        background-color: #fff;
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px 0 20px;
+        transition: 0.2s;
+        position: fixed;
+        z-index: 5;
+        border-bottom: 1px solid rgb(0, 0, 0);
+
+    }
+
+    .activeNavbarContainer {
+        background-color: #fff;
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px 0 20px;
+        transition: 0.2s;
+        z-index: 10;
+        position: fixed;
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+    .menu {
+        font-size: 2em;
+        cursor: pointer;
+        display: none;
+    }
+
+    .activeNavbarContainer a {
+        color: black;
+    }
+
+    .activeNavbarContainer .menu {
+        color: black;
+    }
+
+    .inactiveNavbarContainer:hover {
+        background-color: #ffffff;
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+    .inactiveNavbarContainer:hover a {
+        color: black;
+    }
+
+    .inactiveNavbarContainer:hover .menu {
+        color: black;
+    }
+
+    .linksWords {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        width: 500px;
+        padding-right: 8px;
+    }
+
+    .categories {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        
+    }
+
+    .categoriesList li {
+        list-style-type: none;
+        margin-right: 20px;
+        font-size: 13px;
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        cursor: pointer;
+        transition: 0.2s;
+
+    }
+
+    .categoriesList li:hover,
+    .iconsList li:hover {
+        box-shadow: 0 1px 0 black;
+
+    }
+
+    .linksIcons {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .iconsList {
+        display: flex;
+    }
+
+    .iconsList li {
+        list-style-type: none;
+        margin-right: 20px;
+        font-size: 25px;
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        cursor: pointer;
+        transition: 0.2s;
+
+
+    }
+
+
+
+    .inactiveNavbarContainer a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .inactiveNavbarContainer .menu {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .activeNavbarContainer .menu {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .activeNavbarContainer a {   
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+
+    .categoriesList {
+        display: none;
+      
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .categoriesHidden{
+        display: none;
+      
+    }
+
+    
+
+    .categoriesShow{
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
+        margin-top: 60px;
+        animation-duration: 0.4s;
+        animation-name: toBottom;
+    }
+
+    @keyframes toBottom {
+        from{
+            margin-top: -150px;
+        }
+
+        to{
+            margin-top:60px
+        }
+    }
+
+    .categoriesShow li{
+        text-align: center;
+        border-bottom: 1px solid black;
+        padding: 5px 0;
+        cursor: pointer;
+        transition: 0.1s;
+    }
+
+    .categoriesShow li:hover{
+        background-color: #ececec;
+
+        
+    }
+
+    .categoriesShow a{
+       text-decoration: none;
+       color: black;
+       
+    }
+
+}

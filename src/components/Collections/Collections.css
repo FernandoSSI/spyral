@@ -1,0 +1,12 @@
+.collectionsContainer{
+    display: flex;
+    max-width: 900px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
