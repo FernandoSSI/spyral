@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spyral/static/css/main.ad7fd9b8.css",
+    "main.css": "/spyral/static/css/main.63baaacf.css",
     "main.js": "/spyral/static/js/main.b210c813.js",
     "static/media/index5.jpg": "/spyral/static/media/index5.b192ba24799a85a13ecd.jpg",
     "static/media/ShopWoman.jpg": "/spyral/static/media/ShopWoman.ef31ae7b7b206aabe545.jpg",
@@ -16,11 +16,11 @@
     "static/media/Overwave.ttf": "/spyral/static/media/Overwave.b054e5cbe08eda5fe1fd.ttf",
     "static/media/bag.jpg": "/spyral/static/media/bag.5c26967627e6a3aab92f.jpg",
     "index.html": "/spyral/index.html",
-    "main.ad7fd9b8.css.map": "/spyral/static/css/main.ad7fd9b8.css.map",
+    "main.63baaacf.css.map": "/spyral/static/css/main.63baaacf.css.map",
     "main.b210c813.js.map": "/spyral/static/js/main.b210c813.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad7fd9b8.css",
+    "static/css/main.63baaacf.css",
     "static/js/main.b210c813.js"
   ]
 }
